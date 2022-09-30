@@ -20,7 +20,7 @@ function loginbtn() {
         localStorage.setItem("password", "qwe123");
 
         let nameuser = localStorage.getItem("username");
-        let pass = localStorage.getItem("passwordgi");
+        let pass = localStorage.getItem("password");
 
     } else {
         window.confirm("Du har skrivit fel Username eller Password, vill du testa igen?")
