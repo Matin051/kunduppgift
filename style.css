@@ -15,7 +15,7 @@ img {
     margin-top: 5px;
     border-radius: 20px;
     
-    margin-left: 30%;
+    margin-left: 26%;
     border: 3px solid green;
     
 
@@ -104,3 +104,21 @@ h1{
     border-radius: 20px;
 
 }
+
+
+.footer{
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid green;
+    width: 50%;
+
+    margin-top: 5px;
+    margin-left: 22%;
+    border-radius: 20px;
+
+
+
+} 
+
