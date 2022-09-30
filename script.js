@@ -1,12 +1,14 @@
 document.getElementById("logutDiv").style.visibility = "hidden";
 
 
+
+
 function loginbtn() {
 
 
     if (document.getElementById("nameuser").value == "sara" && document.getElementById("pass").value == "qwe123") {
 
-        console.log("Matin");
+        
         window.confirm("Välkommen, du är nu inloggad")
 
         document.getElementById("nameuser").style.visibility = "hidden";
@@ -14,7 +16,13 @@ function loginbtn() {
         document.getElementById("loginDiv").style.visibility = "hidden"
         document.getElementById("logutDiv").style.visibility = "visible";
 
-    }else{
+        localStorage.setItem("nameuser", "sara");
+        localStorage.setItem("pass", "qwe123");
+
+        let nameuser = localStorage.getItem("nameuser");
+        let pass = localStorage.getItem("pass");
+
+    } else {
         window.confirm("Du har skrivit fel Username eller Password, vill du testa igen?")
     }
 
