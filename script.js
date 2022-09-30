@@ -16,11 +16,11 @@ function loginbtn() {
         document.getElementById("loginDiv").style.visibility = "hidden"
         document.getElementById("logutDiv").style.visibility = "visible";
 
-        localStorage.setItem("nameuser", "sara");
-        localStorage.setItem("pass", "qwe123");
+        localStorage.setItem("username", "sara");
+        localStorage.setItem("password", "qwe123");
 
-        let nameuser = localStorage.getItem("nameuser");
-        let pass = localStorage.getItem("pass");
+        let nameuser = localStorage.getItem("username");
+        let pass = localStorage.getItem("passwordgi");
 
     } else {
         window.confirm("Du har skrivit fel Username eller Password, vill du testa igen?")
